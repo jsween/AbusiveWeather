@@ -23,6 +23,8 @@
 		F2030BEF2751D5FB00D4F441 /* WeatherCellRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030BEE2751D5FB00D4F441 /* WeatherCellRow.swift */; };
 		F2030BF12751D6B800D4F441 /* AddCityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030BF02751D6B800D4F441 /* AddCityScreen.swift */; };
 		F2030BF32751D70F00D4F441 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030BF22751D70F00D4F441 /* SettingsScreen.swift */; };
+		F2030BF52751DE0300D4F441 /* WeatherIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030BF42751DE0300D4F441 /* WeatherIcon.swift */; };
+		F2030C2C275AFF9D00D4F441 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C2B275AFF9C00D4F441 /* Sys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		F2030BEE2751D5FB00D4F441 /* WeatherCellRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellRow.swift; sourceTree = "<group>"; };
 		F2030BF02751D6B800D4F441 /* AddCityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityScreen.swift; sourceTree = "<group>"; };
 		F2030BF22751D70F00D4F441 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		F2030BF42751DE0300D4F441 /* WeatherIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIcon.swift; sourceTree = "<group>"; };
+		F2030C2B275AFF9C00D4F441 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				F2030BE82751B11B00D4F441 /* Enums */,
-				F2030BE22751B07400D4F441 /* Weather.swift */,
 				F2030BE42751B09000D4F441 /* WeatherResponse.swift */,
+				F2030BE22751B07400D4F441 /* Weather.swift */,
+				F2030BF42751DE0300D4F441 /* WeatherIcon.swift */,
+				F2030C2B275AFF9C00D4F441 /* Sys.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2030BDD2751B00500D4F441 /* String+Extensions.swift in Sources */,
+				F2030BF52751DE0300D4F441 /* WeatherIcon.swift in Sources */,
 				F2030BF12751D6B800D4F441 /* AddCityScreen.swift in Sources */,
+				F2030C2C275AFF9D00D4F441 /* Sys.swift in Sources */,
 				F2030BC62751AD4C00D4F441 /* WeatherListScreen.swift in Sources */,
 				F2030BDB2751AFB200D4F441 /* UserDefaults+Extensions.swift in Sources */,
 				F2030BDF2751B01B00D4F441 /* Date+Extensions.swift in Sources */,
