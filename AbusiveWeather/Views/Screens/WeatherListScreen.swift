@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct WeatherListScreen: View {
+    @EnvironmentObject var store: Store
+    @State private var activeSheet: Sheets?
+    
     var body: some View {
         
         List {
@@ -17,12 +20,21 @@ struct WeatherListScreen: View {
         }
         .listStyle(PlainListStyle())
         
+        .sheet(item: $activeSheet, content: { (item) in
+            switch item {
+            case .addNewCity:
+                AddCityScreen().environmentObject(store)
+            case .settings:
+                SettingsScreen()
+            }
+        })
+        
         .navigationBarItems(leading: Button(action: {
-            
+            activeSheet = .settings
         }) {
             Image(systemName: "gearshape")
         }, trailing: Button(action: {
-            
+            activeSheet = .addNewCity
         }, label: {
             Image(systemName: "plus")
         }))
@@ -34,6 +46,6 @@ struct WeatherListScreen: View {
 
 struct WeatherListScreen_Previews: PreviewProvider {
     static var previews: some View {
-        WeatherListScreen()
+        WeatherListScreen().environmentObject(Store())
     }
 }

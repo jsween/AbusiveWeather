@@ -25,6 +25,11 @@
 		F2030BF32751D70F00D4F441 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030BF22751D70F00D4F441 /* SettingsScreen.swift */; };
 		F2030BF52751DE0300D4F441 /* WeatherIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030BF42751DE0300D4F441 /* WeatherIcon.swift */; };
 		F2030C2C275AFF9D00D4F441 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C2B275AFF9C00D4F441 /* Sys.swift */; };
+		F2030C2E275BCE6000D4F441 /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C2D275BCE6000D4F441 /* AddWeatherViewModel.swift */; };
+		F2030C30275BD0BE00D4F441 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C2F275BD0BE00D4F441 /* WebService.swift */; };
+		F2030C32275BD19200D4F441 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C31275BD19200D4F441 /* WeatherViewModel.swift */; };
+		F2030C34275BD5D200D4F441 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C33275BD5D200D4F441 /* Sheets.swift */; };
+		F2030C36275C2D1B00D4F441 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C35275C2D1B00D4F441 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,11 @@
 		F2030BF22751D70F00D4F441 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		F2030BF42751DE0300D4F441 /* WeatherIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIcon.swift; sourceTree = "<group>"; };
 		F2030C2B275AFF9C00D4F441 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
+		F2030C2D275BCE6000D4F441 /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
+		F2030C2F275BD0BE00D4F441 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F2030C31275BD19200D4F441 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		F2030C33275BD5D200D4F441 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		F2030C35275C2D1B00D4F441 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,8 @@
 		F2030BD32751AD6100D4F441 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F2030C2D275BCE6000D4F441 /* AddWeatherViewModel.swift */,
+				F2030C31275BD19200D4F441 /* WeatherViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -133,6 +145,7 @@
 		F2030BD42751AD6D00D4F441 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F2030C2F275BD0BE00D4F441 /* WebService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -169,6 +182,7 @@
 		F2030BD82751ADA000D4F441 /* GlobalState */ = {
 			isa = PBXGroup;
 			children = (
+				F2030C35275C2D1B00D4F441 /* Store.swift */,
 			);
 			path = GlobalState;
 			sourceTree = "<group>";
@@ -185,6 +199,7 @@
 			children = (
 				F2030BEB2751B35C00D4F441 /* TemperatureUnit.swift */,
 				F2030BE62751B0CD00D4F441 /* NetworkError.swift */,
+				F2030C33275BD5D200D4F441 /* Sheets.swift */,
 			);
 			name = Enums;
 			sourceTree = "<group>";
@@ -267,10 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2030C36275C2D1B00D4F441 /* Store.swift in Sources */,
+				F2030C30275BD0BE00D4F441 /* WebService.swift in Sources */,
 				F2030BDD2751B00500D4F441 /* String+Extensions.swift in Sources */,
 				F2030BF52751DE0300D4F441 /* WeatherIcon.swift in Sources */,
 				F2030BF12751D6B800D4F441 /* AddCityScreen.swift in Sources */,
 				F2030C2C275AFF9D00D4F441 /* Sys.swift in Sources */,
+				F2030C2E275BCE6000D4F441 /* AddWeatherViewModel.swift in Sources */,
 				F2030BC62751AD4C00D4F441 /* WeatherListScreen.swift in Sources */,
 				F2030BDB2751AFB200D4F441 /* UserDefaults+Extensions.swift in Sources */,
 				F2030BDF2751B01B00D4F441 /* Date+Extensions.swift in Sources */,
@@ -280,9 +298,11 @@
 				F2030BF32751D70F00D4F441 /* SettingsScreen.swift in Sources */,
 				F2030BEF2751D5FB00D4F441 /* WeatherCellRow.swift in Sources */,
 				F2030BE72751B0CD00D4F441 /* NetworkError.swift in Sources */,
+				F2030C32275BD19200D4F441 /* WeatherViewModel.swift in Sources */,
 				F2030BE32751B07400D4F441 /* Weather.swift in Sources */,
 				F2030BE52751B09000D4F441 /* WeatherResponse.swift in Sources */,
 				F2030BEC2751B35C00D4F441 /* TemperatureUnit.swift in Sources */,
+				F2030C34275BD5D200D4F441 /* Sheets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
