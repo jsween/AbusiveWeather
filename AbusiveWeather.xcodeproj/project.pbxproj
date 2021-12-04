@@ -30,6 +30,7 @@
 		F2030C32275BD19200D4F441 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C31275BD19200D4F441 /* WeatherViewModel.swift */; };
 		F2030C34275BD5D200D4F441 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C33275BD5D200D4F441 /* Sheets.swift */; };
 		F2030C36275C2D1B00D4F441 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C35275C2D1B00D4F441 /* Store.swift */; };
+		F2030C38275C30BB00D4F441 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2030C37275C30BB00D4F441 /* ApiKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		F2030C31275BD19200D4F441 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		F2030C33275BD5D200D4F441 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
 		F2030C35275C2D1B00D4F441 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		F2030C37275C30BB00D4F441 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				F2030BE92751B14500D4F441 /* Constants.swift */,
+				F2030C37275C30BB00D4F441 /* ApiKeys.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				F2030BDF2751B01B00D4F441 /* Date+Extensions.swift in Sources */,
 				F2030BE12751B04D00D4F441 /* View+Extensions.swift in Sources */,
 				F2030BEA2751B14500D4F441 /* Constants.swift in Sources */,
+				F2030C38275C30BB00D4F441 /* ApiKeys.swift in Sources */,
 				F2030BC42751AD4C00D4F441 /* AbusiveWeatherApp.swift in Sources */,
 				F2030BF32751D70F00D4F441 /* SettingsScreen.swift in Sources */,
 				F2030BEF2751D5FB00D4F441 /* WeatherCellRow.swift in Sources */,
